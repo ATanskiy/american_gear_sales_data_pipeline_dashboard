@@ -1,0 +1,39 @@
+
+# ─── Python & Jupyter ─────────────────────────────────────
+*.pyc
+__pycache__/
+*.ipynb
+.ipynb_checkpoints/
+
+# ─── Data Files ────────────────────────────────────────────
+*.csv
+*.tsv
+*.xlsx
+*.xls
+*.json
+*.parquet
+*.feather
+*.pdf
+
+# ─── Power BI ──────────────────────────────────────────────
+*.pbix
+
+# ─── Virtual Environments ──────────────────────────────────
+.venv/
+env/
+venv/
+
+# ─── OS & IDE junk ─────────────────────────────────────────
+.DS_Store
+.idea/
+.vscode/
+
+# ─── Logs ──────────────────────────────────────────────────
+*.log
+
+# ─── Output / Temp ─────────────────────────────────────────
+outputs/
+data/
+tmp/
+*.bak
+*.tmp
